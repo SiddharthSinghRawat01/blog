@@ -47,7 +47,7 @@ app.get("/contact",function(req,res){
 // get request for compose page
 app.get("/compose",function(req,res){
 
-  res.render("compose")
+  res.render("compose",)
 
 });
 
